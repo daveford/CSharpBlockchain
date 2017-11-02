@@ -1,5 +1,8 @@
+using System;
+
 namespace CSharpBlockchain.Models
 {
+    [Serializable()]
     public class Transaction
     {
         public string Sender {get; set;}
